@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import "flowbite/src/themes/default"; */
+/* @plugin "flowbite/plugin"; */
+@import 'flowbite';
+/* @source "../node_modules/flowbite"; */
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: aliceblue;
+}
